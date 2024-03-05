@@ -1,0 +1,22 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-image: url(../Assets/color.png);
+    background-size: cover;
+    background-position: center;
+    height: 29vh; 
+    background-attachment: fixed;
+    position: relative;
+   
+}
+.footer-tokens{
+    background-color:rgb(237, 230, 230);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 2px solid #bebaba;
+    width:200px;
+    align-items: center;
+}

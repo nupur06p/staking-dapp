@@ -1,0 +1,70 @@
+.home-stake-box{
+    /* z-index: 3; */
+    margin-left: 60px;
+    margin-top: 80px;
+    padding:2px;
+    /* background-color: rgb(177, 247, 209); */
+    width:270px;
+    height:20px;
+    border: 1px solid #7a7a7a; 
+    border-radius: 75px;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+}
+
+.stake{
+    position: absolute;
+    /* z-index:1; */
+    height:290px;
+    width:270px;
+    background-color: beige;
+    border: 1px solid #7a7a7a; 
+    border-radius: 20px;
+    border: none;
+    padding: 2px;
+}
+
+.stake p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    font-family:'Arial Narrow'; 
+}
+
+.stake-box{
+    text-align:center;
+    background-color: #b8b1b1;
+    margin-top: 5px;
+    margin-left: 1px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family:'Arial Narrow';
+    border-radius: 10px;
+
+}
+.stake-data ul{
+    display: flex;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family:sans-serif;
+    text-align: center;
+}
+.stake-data button{
+    margin-top: 40px;
+    /* margin-left: 40px; */
+    background-color: rgb(200, 200, 241);
+    cursor: pointer;
+    width:90px;
+    height:30px;
+    border-radius: 20px;
+    border: 1px solid #7a7a7a;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+} 
+
+.home-apy{
+    margin-top: -25px;
+}

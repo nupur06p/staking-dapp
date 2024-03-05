@@ -1,0 +1,108 @@
+
+.home-logo{
+    background-image: url(../Assets/color.png);
+    background-size: cover;
+    background-position: center;
+    height: 60vh; 
+    background-attachment: fixed;
+    position: relative;
+}
+
+.home-stake{
+    display: flex;
+    padding: 2px;
+    margin-top: -70px;
+    margin-left: 330px;
+    height:400px;
+    width:800px;
+    background-color: rgb(244, 181, 251);
+    border-radius: 60px;
+    border:6px solid rgb(235, 158, 243);
+}
+
+.outlet{
+    display: flex;
+    position: relative;
+}
+
+.outlet-stake {
+    display: flex;
+}
+
+
+.outlet-stake ul{
+    margin-left: 420px;
+    margin-top: 40px;
+    padding:2px;
+    width:100px;
+    height:20px;
+    background-color: rgb(177, 247, 209);
+    border: 1px solid #7a7a7a; 
+    border-radius: 75px;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+
+}
+
+.outlet-unstake ul{
+    /* margin-left: 0px; */
+    margin-top: 40px;
+    padding:2px;
+    width:100px;
+    height:20px;
+    background-color: rgb(158, 170, 240);
+    width:100px;
+    height:20px;
+    margin-left:-10px;
+    border: 1px solid #7a7a7a; 
+    border-radius: 75px;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+
+}
+
+.locked-stake{
+    margin-left: 750px;
+    margin-top: -380px;
+    height:350px;
+    width: 300px;
+    background-color: rgb(218, 216, 233);
+    border-radius: 20px;
+    border: 1px solid #7a7a7a;
+
+}
+.locked-stake p{
+    margin-top: 10px;
+    margin-left: 30%;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.locked-stake-box{
+    align-items: left;
+    margin-left:20px;
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.locked-stake-box p{
+    align-items: left;
+    margin-left:5px;
+    margin-top: -1px;
+    font-size: 14px;
+    font-weight: 500;
+    color:rgb(249, 96, 61);
+}
+
+.locked-stake-box ul{
+    background-color: #b8b1b1;
+    width:120px;
+    border-radius: 50px;
+    border: 1px solid #7a7a7a;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: -10px;
+} 
